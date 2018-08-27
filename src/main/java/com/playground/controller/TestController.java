@@ -14,6 +14,6 @@ public class TestController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
-        return "I see: " + tennisCoach.getDailyWorkout();
+        return "I see the update: " + tennisCoach.getDailyWorkout();
     }
 }
