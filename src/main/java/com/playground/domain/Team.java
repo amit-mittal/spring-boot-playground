@@ -23,4 +23,20 @@ public class Team {
         this.name = name;
         this.players = players;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Set<Player> getPlayers() {
+        return players;
+    }
 }
